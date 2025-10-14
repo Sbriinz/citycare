@@ -1,31 +1,36 @@
-# === GENERALE ===
+# IDE
 .idea/
 .vscode/
+
+# OS
 .DS_Store
 Thumbs.db
 
-# === FRONTEND (React / Node.js) ===
+# Frontend (React)
 citycare-fe/node_modules/
-citycare-fe/dist/
 citycare-fe/build/
+citycare-fe/dist/
+citycare-fe/.cache/
 citycare-fe/.env
-citycare-fe/.env.*
 
-# === BACKEND (Spring Boot / Java) ===
+# Backend (Spring Boot / Maven)
 citycare-be/target/
-citycare-be/.env
-citycare-be/.env.*
-citycare-be/*.log
 citycare-be/*.iml
-citycare-be/*.jar
-citycare-be/*.war
-citycare-be/*.class
 citycare-be/.idea/
 citycare-be/out/
+citycare-be/*.class
+citycare-be/*.jar
+citycare-be/*.war
+citycare-be/*.ear
+citycare-be/.env
 
-# === LOGS ===
+# Log
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+
+# File temporanei
+*.tmp
+*.swp
