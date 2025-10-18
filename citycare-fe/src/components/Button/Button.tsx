@@ -1,6 +1,6 @@
 import React from "react";
 import "./Button.css";
-import "./pages/Home"
+import "../../pages/Home"
 import {useNavigate} from "react-router-dom";
 
 

@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../Button";
+import Button from "../components/Button/Button";
 import "../App.css";
 import backgroundImage from "../assets/background.jpg";
 import {FaEye, FaPaperPlane} from "react-icons/fa";
